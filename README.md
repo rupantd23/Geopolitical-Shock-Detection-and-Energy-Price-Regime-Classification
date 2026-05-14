@@ -26,11 +26,11 @@ Integration of the **Caldara and Iacoviello Geopolitical Risk (GPR) Index** to v
 
 ## 📂 Repository Structure
 ```text
-├── data/               # Historical energy prices and GPR indices
-├── notebooks/          # Exploratory Data Analysis and model training logs
-├── scripts/            # Core R/Python implementations of HMM and structural tests
-├── visualizations/     # Plots showing detected regimes and structural breaks
-├── requirements.txt    # Required libraries
+├── datasets/        # Historical energy prices and GPR indices
+├── codes/           # Core R/Python implementations of HMM and structural tests
+├── outputs/         # Exploratory Data Analysis and model training logs
+|    ├── figures/     # Plots showing detected regimes and structural breaks
+├── Report           #Final reports containing all the findings
 └── README.md
 ```
 
